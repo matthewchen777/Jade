@@ -14,16 +14,12 @@
       </block>
     </statement>
     <next>
-      <block type="movement_right" id="270">
-        <next>
-          <block type="robot_delay" id="258" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="260">
-                <field name="NUM">30</field>
-              </block>
-            </value>
+      <block type="robot_delay" id="258" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="260">
+            <field name="NUM">30</field>
           </block>
-        </next>
+        </value>
       </block>
     </next>
   </block>
