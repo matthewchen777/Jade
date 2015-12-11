@@ -1,27 +1,31 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="-301" y="-332">
-    <field name="MODE">WHILE</field>
-    <statement name="DO">
-      <block type="controls_if" id="2" inline="false">
-        <value name="IF0">
-          <block type="math_number" id="3">
-            <field name="NUM">30</field>
-          </block>
-        </value>
-        <statement name="DO0">
-          <block type="movement_forward" id="4"></block>
-        </statement>
-      </block>
-    </statement>
+  <block type="movement_forward" id="17" x="-300" y="-358">
     <next>
-      <block type="movement_right" id="5">
-        <next>
-          <block type="robot_delay" id="6" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="7">
+      <block type="controls_whileUntil" id="1" inline="false">
+        <field name="MODE">WHILE</field>
+        <statement name="DO">
+          <block type="controls_if" id="2" inline="false">
+            <value name="IF0">
+              <block type="math_number" id="3">
                 <field name="NUM">30</field>
               </block>
             </value>
+            <statement name="DO0">
+              <block type="movement_forward" id="4"></block>
+            </statement>
+          </block>
+        </statement>
+        <next>
+          <block type="movement_right" id="5">
+            <next>
+              <block type="robot_delay" id="6" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="7">
+                    <field name="NUM">30</field>
+                  </block>
+                </value>
+              </block>
+            </next>
           </block>
         </next>
       </block>
