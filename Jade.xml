@@ -1,24 +1,24 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="174" inline="false" x="-301" y="-332">
+  <block type="controls_whileUntil" id="1" inline="false" x="-301" y="-332">
     <field name="MODE">WHILE</field>
     <statement name="DO">
-      <block type="controls_if" id="102" inline="false">
+      <block type="controls_if" id="2" inline="false">
         <value name="IF0">
-          <block type="math_number" id="146">
+          <block type="math_number" id="3">
             <field name="NUM">30</field>
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_forward" id="68"></block>
+          <block type="movement_forward" id="4"></block>
         </statement>
       </block>
     </statement>
     <next>
-      <block type="movement_right" id="280">
+      <block type="movement_right" id="5">
         <next>
-          <block type="robot_delay" id="258" inline="true">
+          <block type="robot_delay" id="6" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="260">
+              <block type="math_number" id="7">
                 <field name="NUM">30</field>
               </block>
             </value>
